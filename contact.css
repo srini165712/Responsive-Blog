@@ -1,0 +1,39 @@
+.contact-content{
+    height : 600px;
+    background : url("https://cdn2.vectorstock.com/i/1000x1000/64/46/seamless-pattern-with-computers-and-accessories-vector-20536446.jpg");
+    padding : 10px;
+    max-width : 80vw;
+    margin : auto;
+}
+.form-box{
+    padding : 10px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn1{
+    font-size : 15px;
+    color : black;
+    border : 1px solid black;
+    border-radius : 10px; 
+    cursor : pointer;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .btn1:hover{
+        color : white;
+        background-color : rgb(107, 0, 139);
+    }
+input{
+    text-align: center;
+    border : 2px solid orangered;
+    border-radius : 5px;
+}
+textarea{
+    margin-left: auto;
+    border : 2px solid orangered;
+    margin-right: auto;
+    text-align: center;
+    border-radius : 5px;
+}
